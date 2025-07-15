@@ -1,182 +1,465 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Reuben Rosen</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!-- /*
+* Template Name: Minimal
+* Template Author: Untree.co
+* Author URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who am I?</a></li>
-							<li><a href="#two">What do I do?</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>I'm Reuben Rosen.</h1>
-							<p>Electrical Engineer by Profession. Dreamer at heart.</a><br />
-							Thanks for stopping by, why not have a look?
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Sure, Tell me More!</a></li>
-							</ul>
-						</div>
-					</section>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/p1.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Cornell Graduate Student</h2>
-									<p>I'm  a 22 year old currently pursuing my Masters at Cornell University in Biomedical Engineering. I did my undergrad from Vellore Institute of Technology, India. You can view all my affiliations by clicking the button below.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">My Affiliations</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/p4.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>AI and IoT Enthusiast</h2>
-									<p>I specialise in Artificial Intelligence in the domain of Healthcare. Click the button below to view my skillset.</p>
-									<ul class="actions">
-										<li><a href="elements.html" class="button scrolly">My Skillset</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/p3.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Amateur Bodybuilder</h2>
-									<p>Lifting weights is my favourite way to blow off some steam. My favourite exercise is the dumbbell press. Need a gym buddy? You know who to call.</p>
-								</div>
-							</div>
-						</section>
-					</section>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>My Projects</h2>
-							<p>Most of my research so far has been in the domain of Artificial Intelligence specialized in healthcare. I also have some projects based on Internet of Things. I know a bit of app development here and there as I've been learning some Flutter and had some prior experience with Java. Every day I'm always learning something new, so the possibilities are endless! Some of my Projects are listed below:</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3><a href ="https://ieeexplore.ieee.org/document/9691601">Infant Mood Prediction using Mel Frequency Cepstral Coefficients</a></h3>
-									<p>Conducted research in classifying Audio Signals into possible categories of the reason for an infant crying. Different audio signals were trained and classified on the basis of parameters such as Mel Frequency Cepstral Coefficient (MFCC). You can view my publication on IEEE Xplore <a href ="https://ieeexplore.ieee.org/document/9691601">here</a> </p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lungs"></span>
-									<h3>COPD Detection in Lungs</h3>
-									<p>Audio Signals of the lungs are analysed using k means clustering and Vector Quantization to classify the audio into a healthy lung or a lung of a COPD patient.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-eye"></span>
-									<h3>Disease Identification in Eye Fundus using YOLOv5</h3>
-									<p>Research was conducted in the possibility of using YOLOv5 to scan and identify from a possibility of four different diseases in an eye fundus dataset.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-biohazard"></span>
-									<h3>COVID-19 Automated Hand Sanitizer with Integrated Face Mask Detector</h3>
-									<p>A webcam connected to a computer scanned the face for the presence of a face mask. A motor controlled a hand sanitizer dispenser with an infrared sensor to disperse the liquid.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-leaf"></span>
-									<h3>Automated Irrigation System with Mobile App</h3>
-									<p>An irrigation system was built which would disperse water depending on the soil moisture, humidity, and temparature considered as factors. Plant and soil parameters could be viewed on the mobile app. The water pump could also be controlled externally via the app.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Currently Working on Something Big.</h3>
-									<p>Keeping myself busy with Flutter to make the next big thing!</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+  <title>Reuben Rosen's World</title>
+</head>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Contact Me</h2>
-							<p>You can use the details below to get in touch with me! I'm always ready to collaborate and learn more, so do let me know if you'd like to work on anything.</p>
-							<div class="split style1">
-								<section>
-									
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>Cornell University<br />
-											Ithaca, NY 14853<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">rjr333@cornell.edu</a>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="https://github.com/reubenrosen" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/reubenrosen/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
 
-			</div>
+  <div class="lines-wrap">
+    <div class="lines-inner">
+      <div class="lines"></div>
+    </div>
+  </div>
+  <!-- END lines -->
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Reuben Rosen. All rights reserved.</li><li></li>
-					</ul>
-				</div>
-			</footer>
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  
+  <nav class="site-nav dark mb-5 site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Reuben Rosen's World<span class="text-primary">.</span></a>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="#home-section" class="nav-link active">Home</a></li>
+          <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+          <li class="has-children">
+            <a href="#about-section" class="nav-link">About</a>
+          </li>
+          <li><a href="#services-section" class="nav-link">Services</a></li>
 
-	</body>
-</html>
+        </ul>
+
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="untree_co-section pb-0" id="home-section">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+          <h1 class="heading gsap-reveal-hero mb-3"><strong>My Work<span class="text-primary">.</span> All in one place.</strong></h1>
+          <h2 class="subheading gsap-reveal-hero mb-4">
+            A collection of my <strong> work, applications, and upcoming projects</strong>. 
+          </h2>
+          <p class="gsap-reveal-hero"><a href="https://github.com/reubenrosen" target="_blank" class="btn btn-outline-black">Click me to go to my GitHub!</a></p>    
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
+    <div class="container">
+
+
+      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+      <div id="portfolio-single-holder"></div>
+
+      <div class="portfolio-wrapper">
+
+        <div id="posts" class="row">
+
+        <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <a href="https://github.com/reubenrosen/SimpleMedic" 
+             class="portfolio-item isotope-item gsap-reveal-img"
+             target="_blank">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>SimpleMedic</h3>
+                  <p>Python, NLP</p>
+                </div>
+              </div>
+              <img src="images/img_1.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>AI Nurse Assistant</h3>
+                  <p>Medical Device, Python</p>
+                </div>
+              </div>
+              <img src="images/img_2.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+        <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <a href="https://github.com/reubenrosenNCSU/cellannotation/tree/main" 
+             class="portfolio-item isotope-item gsap-reveal-img"
+             target="_blank">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Advanced Cell Detector,Annotator,Fine-tuner</h3>
+                  <p>web, ML, Python, Image Processing</p>
+                </div>
+              </div>
+              <img src="images/img_3.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+        <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <a href="https://ieeexplore.ieee.org/document/9691601" 
+             class="portfolio-item isotope-item gsap-reveal-img"
+             target="_blank">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Infant Mood Prediction (Paper Publication)</h3>
+                  <p>Python, MATLAB, ML</p>
+                </div>
+              </div>
+              <img src="images/img_4.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Graduated from Cornell :)</h3>
+                  <p>-Andy Bernard</p>
+                </div>
+              </div>
+              <img src="images/img_6.JPEG" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+        <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <a href="https://www.sciencedirect.com/science/article/pii/S2589004225011903" 
+             class="portfolio-item isotope-item gsap-reveal-img"
+             target="_blank">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Research Paper which used my Cell Detection Tool</h3>
+                  <p></p>
+                </div>
+              </div>
+              <img src="images/img_7.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+
+        <!-- </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <div class="untree_co-section pb-0" id="about-section">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-7 mx-auto text-center author-wrap">
+            <img src="images/person1.JPEG" alt="Image" class="img-fluid rounded-circle mb-3">
+            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Reuben Rosen</h3>
+            <p class="gsap-reveal-hero">Electrical and Electronics Engineer, Biomedical Engineer, Software Developer</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+
+
+            <p class="gsap-reveal-hero">I completed my Bachelors in Electrical and Electronics Engineering from Vellore Institute of Technology, ranked among the top 10 universities in the country for engineering. During my tenure I undertook a lot of undergraduate research, one of which has been accepted as a conference paper and is published in IEEE Xplore. (https://ieeexplore.ieee.org/document/9691601)</p>
+
+            <p class="gsap-reveal-hero">I completed my Masters in Biomedical Engineering from Cornell University, ranked 12th in Biomedical Engineering in the country. I had the opportunity to work as a Design Engineer with Baxter International, as part of which I built a medical device- an AI based automated assistant for nurses to evaluate patients.</p>
+
+            <p class="gsap-reveal-hero">Currently I work as a GUI Developer at the Lampe Joint Department of Biomedical Engineering at NC State and UNC Chapel Hill. I built a website (Advanced Cell Annotation and Detection Tool) which has a 3 in one function: 1) allows the user to annotate cells in microscope images 2) Skip the hassle of annotating all the cells, and instead click on Detect SGN (Spiral Ganglion Neuron), using RetinaNet based deep learning technique for object detection. The user can also fine-tune the model for improved detections/adjusting the model to detect their own kind of cells. The source code is available on Github (https://github.com/reubenrosenNCSU/cellannotation/tree/main), and you can view the YouTube Demonstration here: https://www.youtube.com/watch?v=IhLrQrVeXEQ&ab_channel=ReubenRosen</p>
+
+            <p class="gsap-reveal-hero">In 2022, I completed my internship at the Defense Research and Development Organization (DRDO), Ministry of Defense, India. I worked under the Naval Physical and Oceanographic Laboratory (NPOL) where I built a security system to identify patients based on their voice. Essentially a voice recognition system. The project was later extended to be my capstone project, as an application which can detect COPD in patients based on the sound of their breathing.</p>
+
+            <p class="gsap-reveal-hero mb-5">I recently built SimpleMedic, which uses Natural Language Processing (NLP), specifically lemmetizing to tokenize input sentences into context, and compare it to a file of possible conditions. The BERT model was trained with a small CSV file containing sentences and their associated possible conditions. When you enter your symptoms, the program outputs the probability of different conditions. GitHub link: https://github.com/reubenrosen/SimpleMedic/tree/main</p>
+
+
+            <p class="gsap-reveal-hero text-center"><a href="mailto:reubenjrosen@gmail.com" target="_blank" class="btn btn-outline-black">Contact me</a></p>    
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="untree_co-section pb-0" id="services-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Stuff I've Worked With</strong></h2>
+            <p class="gsap-reveal-hero">Jack of all trades, master of some.</p>
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-7.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">Data Analysis</h3>
+              <p class="gsap-reveal-hero">Worked with cleaning and organizing data to make it more efficient in my machine learning projects. Used Tableu for visual representation</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-1.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">Web Design</h3>
+              <p class="gsap-reveal-hero">Built a website using Python and Flask for backend and HTML and JavaScript for the frontend to create a website which can annotate images, make detections in images, and even fine-tune the model which is used in the backend for detection.</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-8.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">App Development</h3>
+              <p class="gsap-reveal-hero">I possess basic knowledge of Flutter and can develop basic applications. I have also worked with Android SDK in the past and developed basic User Interfaces.</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-5.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">Machine Learning</h3>
+              <p class="gsap-reveal-hero">Used Python and MATLAB for various machine learning classification techniques, trained deep learning networks for detection of patterns specific to user's needs.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="untree_co-section pb-0">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>My Skillset</strong></h2>
+            <p class="gsap-reveal-hero">Always trying to learn more.</p>
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="0">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Software Development</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="85">
+                <div class="number"></div>
+                <p class="caption">Machine Learning & NLP</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="89">
+                <div class="number"></div>
+                <p class="caption">Signal & Image Processing</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="75">
+                <div class="number"></div>
+                <p class="caption">GUI & Web Interface Design </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="untree_co-section testimonial-wrap">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Recommendations</strong></h2>
+            <p class="gsap-reveal-hero">What people I've worked with had to say about me :)</p>
+
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div data-aos="fade-left" data-aos-delay="200">
+
+
+
+          <div class="owl-carousel owl-3-slider">
+            <div class="item">
+              <div class="item">
+                <div class="testimonial-v1">
+                  <!-- Optional image -->
+                  <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                  <div class="mb-4">
+                    <h3>John Lane</h3>
+                    <span class="caption">Director-R&D at Baxter International</span>
+                  </div>
+                  <!-- Embedded PDF -->
+                  <iframe src="pdfs/baxter.pdf" width="100%" height="400px" style="border: none;"></iframe>
+                </div>
+              </div>
+            </div>
+            <!-- END .item -->
+
+            <div class="item">
+              <div class="testimonial-v1">
+                <div class="mb-4">
+                  <h3>Manoj Kumar K, Scientist at DRDO NPOL, Ministry of Defense, India</h3>
+                  <span class="caption">Letter of Recommendation</span>
+                </div>
+                <!-- Embedded PDF -->
+                <iframe src="pdfs/drdo.pdf" width="100%" height="400px" style="border: none;"></iframe>
+              </div>
+            </div>
+            <!-- END .item -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="untree_co-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 text-center mx-auto">
+
+
+    <div class="site-footer">
+      <div class="container">
+
+
+            </div> <!-- /.widget -->
+          </div> <!-- /.col-lg-3 -->
+
+        </div> <!-- /.row -->
+
+
+
+
+
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <!-- 
+              **==========
+              NOTE: 
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+
+              **==========
+            -->
+            <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
+            </p>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/wave-animate.js"></script>
+    <script src="js/circle-progress.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/scrollmagic.animation.gsap.min.js"></script>
+
+
+    <script src="js/custom.js"></script>
+    
+  </body>
+
+  </html>
